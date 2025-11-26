@@ -132,6 +132,7 @@ void output(std::string& output_file,std::vector<double>& magnitude){
     
 }
 
+
 void output(std::string& output_file, std::string& fit, double& chi){
     std::ofstream outfile;
     outfile.open(output_file, std::ios::app);

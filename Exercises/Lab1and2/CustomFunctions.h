@@ -28,9 +28,9 @@ void chi_square(const std::vector<std::pair<double, double>>& data_point,const s
 void x_pow_y(const std::vector<std::pair<double, double>>& data_point, std::vector<double>& power);
 double power_fun(double& x, int y, double result);
 
-std::string output_magnitude = "/home/s2852655/SUPACPP_Labs/Exercises/Lab1and2/magnitude.txt";
-std::string output_fit = "/home/s2852655/SUPACPP_Labs/Exercises/Lab1and2/fit.txt";
-std::string output_power = "/home/s2852655/SUPACPP_Labs/Exercises/Lab1and2/power.txt";
+std::string output_magnitude = "/workspaces/SUPACPP_Labs/Exercises/Lab1and2/Outputs/magnitude.txt";
+std::string output_fit = "/workspaces/SUPACPP_Labs/Exercises/Lab1and2/Outputs/fit.txt";
+std::string output_power = "/workspaces/SUPACPP_Labs/Exercises/Lab1and2/Outputs/power.txt";
 
 void output(std::string& output_file,std::vector<double>& magnitude);
 void output(std::string& output_file, std::string& fit, double& chi);
