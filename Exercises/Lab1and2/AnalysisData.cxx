@@ -7,8 +7,8 @@
 
 
 int main(){
-    std::string input_file = "/home/s2852655/SUPACPP_Labs/Exercises/Lab1and2/input2D_float.txt";
-    std::string error_file = "/home/s2852655/SUPACPP_Labs/Exercises/Lab1and2/error2D_float.txt";
+    std::string input_file = "/workspaces/SUPACPP_Labs/Exercises/Lab1and2/input2D_float.txt";
+    std::string error_file = "/workspaces/SUPACPP_Labs/Exercises/Lab1and2/error2D_float.txt";
     
     std::cout<<"What function you want to use?"<<std::endl;
     std::cout<<"To print N line enter: 1"<<std::endl;
