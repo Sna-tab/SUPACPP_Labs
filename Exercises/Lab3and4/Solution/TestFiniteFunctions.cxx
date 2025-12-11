@@ -10,13 +10,13 @@
 #include "Distribution.h"
 
 int main() {
-    std::string data_path = "/home/s2852655/SUPACPP_Labs/Exercises/Lab3and4/Outputs/data/MysteryData14101.txt";
+    std::string data_path = "/workspaces/SUPACPP_Labs/Exercises/Lab3and4/Solution/Outputs/data/MysteryData14101.txt";
     std::vector<double> data_point;
     read_data_file(data_path, data_point);
     double sigma=  0.0;
     double mean= 0.0;
 
-    std::string outfile = "/home/s2852655/SUPACPP_LabsExercises/Lab3and4";
+    std::string outfile = "/workspaces/SUPACPP_LabsExercises/Lab3and4/Solution";
 
     double min = *std::min_element(data_point.begin(), data_point.end());
     double max = *std::max_element(data_point.begin(), data_point.end());

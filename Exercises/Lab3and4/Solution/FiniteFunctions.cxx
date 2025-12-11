@@ -3,10 +3,12 @@
 #include <vector>
 #include "FiniteFunctions.h"
 #include <filesystem> //To check extensions in a nice way
-#include "gnuplot-iostream.h" //Needed to produce plots (not part of the course) 
+#include "/workspaces/SUPACPP_Labs/GNUplot/gnuplot-iostream.h" //Needed to produce plots (not part of the course) 
 #include <cmath>
 #include <random>
+#include <filesystem>
 using std::filesystem::path;
+
 
 //Empty constructor
 FiniteFunction::FiniteFunction(){
